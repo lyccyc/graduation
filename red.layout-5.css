@@ -1,0 +1,56 @@
+.headline{
+    font-weight:50px;text-align: center;
+    margin-bottom: 10px;
+}
+
+.list{
+    display:flex;
+    justify-content: center;
+}
+
+.product{
+    flex:none;width:280px;margin:10px;
+    background-color:aquamarine
+}
+
+.desktop-menu{
+    text-align: center;
+    display:block;
+}
+
+.mobile-menu{
+    text-align: center;
+    display:none;
+}
+
+@media (max-width:1250px){
+    /*螢幕寬度小於1250px 套用這個區塊的css*/
+    .list{
+        flex-wrap: wrap;
+    }
+
+    .product{
+        width: 45%;
+    }
+}
+
+@media (max-width:500px){
+    /*螢幕寬度小於500px 套用這個區塊的css 手機最小360*/
+    .headline{
+        font-size: 20px;
+    }
+    .product{
+        width: 90%;
+    }
+
+    .desktop-menu{
+        text-align: center;
+        display:none;
+    }
+    
+    .mobile-menu{
+        text-align: center;
+        display:block;
+    }
+    
+}

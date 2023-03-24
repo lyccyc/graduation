@@ -1,0 +1,36 @@
+.frame{
+    display:flex;/* 讓項目水平排列*/
+}
+
+.right{
+    background-color: blue;
+    flex:none;/* 固定配置*/
+    width:400px;
+}
+
+.left{
+    display:flex;/* 讓項目水平排列*/
+    justify-content: center;/*水平對其*/
+    background-color: brown;
+    flex:auto;/* 自動把剩下的空間填滿*/
+}
+
+.item{
+    background-color: red;
+    flex:none;/* 固定配置*/
+    width:100px;
+    margin-right:10px;
+    text-align: center;
+}
+
+.welcome{
+    display:flex;/* 讓項目水平排列*/
+    justify-content: center;
+    align-items: center;/*垂直對其*/
+    background-color: rgb(22, 183, 183);
+}
+
+.text{
+    font-size:30px;
+    text-decoration: underline;
+}
