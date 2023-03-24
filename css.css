@@ -120,9 +120,22 @@ img{
     }
 }
 
-.multiline-text {
+.typewriter-text {
+    display: inline-block; /* 将文本作为块元素处理 */
+    overflow: hidden; /* 隐藏文本 */
+    animation: typing 10s steps(100, end) forwards; /* 打字动画 */
+  }
+  
+  /* 打字动画 */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  
+  .multiline-text {
     opacity: 0; /* 初始不可见 */
-    animation: fade-in 5s ease-in-out forwards; /* 渐变动画 */
+    animation: fade-in 3s ease-in-out forwards; /* 渐变动画 */
   }
   
   /* 渐变动画 */
