@@ -120,7 +120,7 @@ img{
     }
 }
 
-.typewriter-text {
+/*.typewriter-text {
     display: inline-block; /* 将文本作为块元素处理 */
     overflow: hidden; /* 隐藏文本 */
     animation: typing 10s steps(100, end) forwards; /* 打字动画 */
@@ -130,7 +130,7 @@ img{
   @keyframes typing {
     from { width: 0 }
     to { width: 100% }
-  }
+  }*/
 
   
   .multiline-text {
