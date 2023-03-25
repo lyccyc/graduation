@@ -123,7 +123,7 @@ img{
 .typewriter-text {
     display: inline-block; /* 将文本作为块元素处理 */
     overflow: hidden; /* 隐藏文本 */
-    animation: typing 10s steps(100, end) forwards; /* 打字动画 */
+    animation: typing 5s steps(50, end) forwards; /* 打字动画 */
   }
   
   /* 打字动画 */
