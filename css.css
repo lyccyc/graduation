@@ -30,7 +30,7 @@ img{
 }
 
 .img-out{
-    list-style-image: url();/*圖案網址*/
+    list-style-type:square;/*圖案網址*/
 }
 
 .s1{color:black;
