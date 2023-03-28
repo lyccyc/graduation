@@ -1,6 +1,15 @@
 /* 標籤名稱選擇器*/
-body{background: linear-gradient(19deg, #00c3ff, #ffff1c)
+body{background-image: url(c:\Users\CYC\Documents\畢業計畫\html-css\背景.jpg);/*背景圖片網址*/
+     background-repeat: no-repeat;
+     background-position: 100%;
 }
+
+img{border:5px solid white;
+    border-radius:20px;
+    border-style:solid;
+}
+/*2023.3.27相框製作完成
+
 /* id選擇器*/
 #title{padding-left:10px;
        padding-top:0px;
@@ -18,6 +27,10 @@ body{background: linear-gradient(19deg, #00c3ff, #ffff1c)
 img{
     max-width: 100%;
     height:auto
+}
+
+.img-out{
+    list-style-image: url();/*圖案網址*/
 }
 
 .s1{color:black;
