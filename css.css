@@ -1,14 +1,22 @@
 /* 標籤名稱選擇器*/
-body{background-image: url(c:\Users\CYC\Documents\畢業計畫\html-css\背景.jpg);/*背景圖片網址*/
-     background-repeat: no-repeat;
-     background-position: 100%;
+body{background-image: url(https://www.google.com.tw/url?sa=i&url=https%3A%2F%2Ftw.pixtastock.com%2Fillustration%2F78139607&psig=AOvVaw1S72pc1FY7SStCrH8vj6s-&ust=1680101883281000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKDPsLTx_v0CFQAAAAAdAAAAABAE);/*背景圖片網址*/
+     background-repeat: repeat;
+     background-position: center center;
 }
 
 img{border:5px solid white;
     border-radius:20px;
     border-style:solid;
 }
-/*2023.3.27相框製作完成
+/*2023.3.27相框製作完成*/
+
+img{
+     width:0px;
+     position:absolute;
+     left:210px;
+     translation:.5s;
+     
+a{translation:0.5s}
 
 /* id選擇器*/
 #title{padding-left:10px;
@@ -30,7 +38,12 @@ img{
 }
 
 .img-out{
-    list-style-type:square;/*圖案網址*/
+    list-style-type:square;
+}
+
+.game1{
+  a:hover:background:lime;
+  a:hover+img:width=180px
 }
 
 .s1{color:black;
