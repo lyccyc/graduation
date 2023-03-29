@@ -41,11 +41,6 @@ img{
     list-style-type:square;
 }
 
-.game1{
-  a:hover:background:lime;
-  a:hover+img:width=180px
-}
-
 .s1{color:black;
     padding:5px;
     margin-top:20px;
