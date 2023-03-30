@@ -1,0 +1,44 @@
+body{background-color: bisque;}
+
+#title{padding-left:10px;
+    padding-top:0px;
+    padding-bottom:10px;
+    color:black;
+    display:flex
+    }
+
+.par-1{font-size: 20px;
+       font-weight:15px;
+       justify-content:flex-start;
+       align-items:flex-start
+    }
+
+    .typewriter-text p {
+        position: relative; /* 设置相对定位 */
+        display: inline-block; /* 将文本作为块元素处理 */
+      }
+      
+      .typewriter-text p::before {
+        content: ""; /* 伪元素内容为空 */
+        position: absolute; /* 设置绝对定位 */
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: bisque; /* 与背景色相同 */
+        animation: typing 3s steps(30, end) forwards, /* 打字动画 */
+                   blink 0.5s step-end infinite; /* 光标动画 */
+      }
+      
+      /* 打字动画 */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+      
+      /* 光标动画 */
+      @keyframes blink {
+        from, to { border-right-color: transparent }
+        50% { border-right-color: black }
+      }
+      
