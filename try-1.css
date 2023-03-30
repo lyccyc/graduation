@@ -1,0 +1,23 @@
+.typewriter-text p {
+    position: relative; /* 设置相对定位 */
+    display: inline-block; /* 将文本作为块元素处理 */
+    direction:ltr; /* 设置文本方向为从右往左 */
+  }
+  
+.typewriter-text p::before {
+    content: ""; /* 伪元素内容为空 */
+    position: absolute; /* 设置绝对定位 */
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #fff; /* 与背景色相同 */
+    animation: typing 3s steps(30, end) forwards; /* 打字动画 */
+  }
+  
+  /* 打字动画 */
+@keyframes typing {
+    from { width: 100%}
+    to { width: 0 }
+  }
+  
